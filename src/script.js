@@ -14,7 +14,6 @@ if (window.performance) {
 
 theInput.addEventListener("input", function(){
   color = theInput.value;
-
 }, false);
 
 document.querySelector("#color-btn").onclick = function(){
